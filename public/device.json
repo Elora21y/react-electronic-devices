@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "LED TV",
+    "type": "Television",
+    "brand": "Samsung",
+    "model": "UA43T5400AR",
+    "power_watts": 85,
+    "price_usd": 350,
+    "description": "43-inch Full HD Smart TV with built-in WiFi and access to popular streaming apps.",
+    "img": "https://i.ibb.co.com/WvtzdpHn/LED-TV.jpg",
+    "warranty_years": 2
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "type": "Computer",
+    "brand": "Dell",
+    "model": "Inspiron 15 3520",
+    "power_watts": 65,
+    "price_usd": 650,
+    "description": "15.6-inch laptop with Intel Core i5 processor and 8GB RAM, perfect for work and study.",
+    "img": "https://i.ibb.co.com/C5pK4yC0/laptop-with-white-screen-isolated-white-wall.jpg",
+    "warranty_years": 1
+  },
+  {
+    "id": 3,
+    "name": "Refrigerator",
+    "type": "Home Appliance",
+    "brand": "LG",
+    "model": "GL-B201ASPY",
+    "power_watts": 150,
+    "price_usd": 400,
+    "description": "190L single door refrigerator with smart inverter compressor for energy efficiency.",
+    "img": "https://i.ibb.co.com/JWb3DxQ6/refrigerator.jpg",
+    "warranty_years": 3
+  },
+  {
+    "id": 4,
+    "name": "Microwave Oven",
+    "type": "Kitchen Appliance",
+    "brand": "Panasonic",
+    "model": "NN-SN686S",
+    "power_watts": 1200,
+    "price_usd": 200,
+    "description": "Countertop microwave with 1.2 cu. ft. capacity and inverter technology for even cooking.",
+    "img": "https://i.ibb.co.com/GfvH1GSp/small-oven-white-background.jpg",
+    "warranty_years": 1
+  },
+  {
+    "id": 5,
+    "name": "Air Conditioner",
+    "type": "Cooling System",
+    "brand": "Gree",
+    "model": "GS-12LM410",
+    "power_watts": 1200,
+    "price_usd": 500,
+    "description": "1-ton split AC with fast cooling and energy-saving inverter technology.",
+    "img": "https://i.ibb.co.com/wZfJ9n4n/air-conditioner-mounted-white-wall.jpg",
+    "warranty_years": 5
+  },
+  {
+    "id": 6,
+    "name": "Washing Machine",
+    "type": "Home Appliance",
+    "brand": "Whirlpool",
+    "model": "WFW5605MW",
+    "power_watts": 500,
+    "price_usd": 700,
+    "description": "Front load washer with 10 wash cycles and Load & Go dispenser.",
+    "img": "https://i.ibb.co.com/SDJWnjYN/washing-machine.jpg",
+    "warranty_years": 3
+  },
+  {
+    "id": 7,
+    "name": "Electric Kettle",
+    "type": "Kitchen Appliance",
+    "brand": "Philips",
+    "model": "HD9306",
+    "power_watts": 1800,
+    "price_usd": 30,
+    "description": "Stainless steel electric kettle with auto shut-off and boil-dry protection.",
+    "img": "https://i.ibb.co.com/nNNXcxmB/kettle.jpg",
+    "warranty_years": 2
+  },
+  {
+    "id": 8,
+    "name": "Ceiling Fan",
+    "type": "Fan",
+    "brand": "Orient",
+    "model": "Apex-FX",
+    "power_watts": 75,
+    "price_usd": 45,
+    "description": "High-speed ceiling fan with 3 blades and aerodynamic design for better airflow.",
+    "img": "https://i.ibb.co.com/Gv4JSz3y/modern-round-desk-fan-with-simple-background.jpg",
+    "warranty_years": 2
+  },
+  {
+    "id": 9,
+    "name": "Smartphone",
+    "type": "Mobile Device",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "power_watts": 20,
+    "price_usd": 799,
+    "description": "Latest iPhone model with A15 Bionic chip, dual-camera system, and OLED display.",
+    "img": "https://i.ibb.co.com/d4Y4DwBk/iphone.jpg",
+    "warranty_years": 1
+  },
+  {
+    "id": 10,
+    "name": "Hair Dryer",
+    "type": "Personal Care",
+    "brand": "Remington",
+    "model": "D3190",
+    "power_watts": 1875,
+    "price_usd": 25,
+    "description": "Powerful hair dryer with ionic conditioning and heat/speed settings.",
+    "img": "https://i.ibb.co.com/Rxtdph1/hair-dryer.jpg",
+    "warranty_years": 2
+  }
+]
