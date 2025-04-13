@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = ({ totalCart, price }) => {
+const Navbar = ({ totalCart, price, handleRemoveCart }) => {
     // console.log(totalCart)
     return (
         <div>
@@ -38,7 +38,7 @@ const Navbar = ({ totalCart, price }) => {
                                                         <img src={cart.img} className='w-10'></img>
                                                         <h2>{cart.name}</h2>
                                                         </div>
-                                                        <button className='btn bgre'>X</button>
+                                                        <button onClick={()=>handleRemoveCart(cart.id)} className='btn text-red-500'>X</button>
                                                     </div>
                                                 )
                                             })

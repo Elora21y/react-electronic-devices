@@ -28,7 +28,7 @@ const Device = ({ device, handleTotalCart }) => {
                     <div className="card-actions justify-end">
                         <button onClick={(e)=>{
                             e.preventDefault()
-                            handleTotalCart(device)
+                            handleTotalCart(device) 
                         }} className="btn btn-primary">Buy Now</button>
                        
                     </div>
