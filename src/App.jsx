@@ -7,6 +7,7 @@ import { addCart, getCart, removeCart } from './Utilities/localStorage'
 import React from 'react';
 
   import { ToastContainer, toast } from 'react-toastify';
+import Search from './Components/Search'
 
 const fetchDevices = fetch('device.json').then(res => res.json())
 
@@ -67,6 +68,7 @@ const [devices , setDevices] = useState([])
     <>
       <Suspense fallback={<h1>Loading...</h1>}>
       <Navbar  totalCart={totalCart} price={price} handleRemoveCart={handleRemoveCart}> </Navbar>
+      <Search fetchDevices ={fetchDevices} handleTotalCart={handleTotalCart}></Search>
       <Devices setDevices={setDevices} fetchDevices={fetchDevices} handleTotalCart={handleTotalCart}  ></Devices>
       <ToastContainer />
       </Suspense>
